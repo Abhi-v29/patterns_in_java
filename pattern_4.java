@@ -1,0 +1,18 @@
+package pattern;
+import java.util.Scanner;
+public class pattern_4 {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Enter the size on pattern : ");
+        int n = scan.nextInt();
+        scan.close();
+        for(int row=1; row<=n;row++){
+            for(int col=1;col<=row;col++){
+                System.out.print(col);
+            }
+            System.out.println();
+        }
+        
+    }
+    
+}
